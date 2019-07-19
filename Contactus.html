@@ -9,25 +9,27 @@
 <style>
 header{
     background-color: rgb(117,200,204);
-    height: 80px;
-    
-}
+    height: 100px;
+    }
+    footer{
+    background-color: rgb(117,200,204);
+    height: 100px;
+
+    }
 nav{
-   
-    
-    
+     
+  
 }
 .navbar{
-    background-color: rgb(117,200,204);
     color:rgb(179,71,59);
-    width: calc(90% / 3);
     float: left;
     text-decoration: none;
-    text-align: center;
+    text-align: Left;
     font-size: 20px;
-    margin: 0px;
-    padding: 0px}
-    
+    margin-top: 75px;
+    padding-left: 15px;
+    padding-right:15px
+    }
 
     .activelink{
         
@@ -39,21 +41,17 @@ nav{
         }
    
     
-   
-    
-
-    
+           
 }
 
 h1 {
     
     font-family: 'Crimson Text', serif;
-    /* padding-top: 20px */
-    
-
+      
 }
 
 h2 {
+    color:rgb(179,71,59);
     text-align: center;
     font-family: 'Varela', sans-serif;
 }
@@ -62,25 +60,81 @@ h2 {
     max-width:100px;
     max-height:100px;
     
+    
 
 }
+p{
+    font-family: 'Varela', sans-serif
 
+}
+.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.twothirds{
+    width: calc(100%/3 *2);
 
+}
+.onethird{
+    width: calc(100%/3);
+}
+.fortypercent{
+    width: 40%
+}
+.thirtypercent{
+    width:30%
+
+}
+.bigtextbox{
+    width: 100%
+}
+/* .textbox{
+    width: 150px
+} */
 </style>
 
 
 <body>
     <header> 
         <img class="logo" src="logo200.png" >
-    </header>
-    <nav>
+        <nav>
         <a class= "navbar" href="#">Home</a>
         <a class= "navbar" href="#">Services</a>
         <a class= "navbar" href="#">Contact Us</a>
-    </nav>
+         </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <p class="blocktext">If you are currently experiencing a challenge or want to discuss how Mike may be a 
+            fit for your coaching needs you can reach us by phone, email, 
+            or by submitting your information below.
+        </p>
+        <form class="blocktext" action="">
+            Company:<br>
+            <input class="bigtextbox"  type="text"><br>
+            First Name:<br>
+            <input class="bigtextbox" type="text"><br>
+            Last Name:<br>
+            <input class="bigtextbox" type="text"><br>
+            Email:<br>
+            <input class="bigtextbox" type="email"><br>
+            Phone Number:<br>
+            <input class="bigtextbox" type="tel"><br>
+            How Can I Help:<br>
+            <textarea class="bigtextbox" id=Contactus rows="15"></textarea><br>
+            Preferred Contact Method:
+            <input type="radio" name="Contact Method" value="Email"> Email
+            <input type="radio" name="Contact Method" value="Phone"> Phone<br>
+
+
+        </form>
+        
+    </main>
+   <footer></footer>
     
-    <Main>
+    
             
-    </Main>
+   
 </body>
 </html>
