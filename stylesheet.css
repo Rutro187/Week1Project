@@ -1,16 +1,115 @@
-<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Varela&display=swap" rel="stylesheet">
-font-family: 'Varela', sans-serif;
-font-family: 'Crimson Text', serif;
-font-family: 'Lora', serif;
+header{
+    background-color: rgb(117,200,204);
+    height: 100px;
+    }
+    footer{
+    background-color: rgb(117,200,204);
+    height: 100px;
+       }
+nav{
+     
+
+}
+aside{
+    width: 25%
+
+}
+main{
+    width:75%
+}
+.navbar{
+    color:rgb(179,71,59);
+    float: left;
+    text-decoration: none;
+    text-align: Left;
+    font-size: 20px;
+    margin-top: 75px;
+    padding-left: 15px;
+    padding-right:15px
+    }
+
+    .activelink{
+        
+    }
+
+    .navbar:not(.activeLink):hover{
+            background-color: black;
+            color: white;
+        }
+   
+    
+           
+}
 
 h1 {
-    text-align: center;
+    
     font-family: 'Crimson Text', serif;
-
+      
 }
 
 h2 {
-    text-align: center;
-    font-family: 'Varela', sans-serif;
+    color:rgb(179,71,59);
+       font-family: 'Varela', sans-serif;
 }
+.logo{
+    float: left;
+    max-width:100px;
+    max-height:100px;
+  
+   
+}
+.flexrow{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start
 
+}
+.flexrowbox{
+    Flex-basis:250px;
+    margin: 5px;
+    background-color: red
+
+}
+.flexcol{
+    display: flex;
+    flex-flow: column nowrap
+}
+.flexcolbox{
+    margin: 5px;
+    background-color: blue;
+    
+
+}
+p{
+    font-family: 'Varela', sans-serif
+
+}
+.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.twothirds{
+    width: calc(100%/3 *2);
+
+}
+.onethird{
+    width: calc(100%/3);
+}
+.fortypercent{
+    width: 40%
+}
+.thirtypercent{
+    width:30%
+
+}
+.bigtextbox{
+    width: 100%
+}
+/* .textbox{
+    width: 150px
+} */
+.center{ text-align: center;}
+.left{text-align: left}
+.right{text-align: right}
+.footertxt{padding: 30px}

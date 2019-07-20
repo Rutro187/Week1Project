@@ -5,106 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KazLeads</title>
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Varela&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <style>
-header{
-    background-color: rgb(117,200,204);
-    height: 100px;
-    }
-    footer{
-    background-color: rgb(117,200,204);
-    height: 100px;
 
-    }
-nav{
-     
-  
-}
-.navbar{
-    color:rgb(179,71,59);
-    float: left;
-    text-decoration: none;
-    text-align: Left;
-    font-size: 20px;
-    margin-top: 75px;
-    padding-left: 15px;
-    padding-right:15px
-    }
-
-    .activelink{
-        
-    }
-
-    .navbar:not(.activeLink):hover{
-            background-color: black;
-            color: white;
-        }
-   
-    
-           
-}
-
-h1 {
-    
-    font-family: 'Crimson Text', serif;
-      
-}
-
-h2 {
-    color:rgb(179,71,59);
-    text-align: center;
-    font-family: 'Varela', sans-serif;
-}
-.logo{
-    float: left;
-    max-width:100px;
-    max-height:100px;
-    
-    
-
-}
-p{
-    font-family: 'Varela', sans-serif
-
-}
-.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
-}
-.twothirds{
-    width: calc(100%/3 *2);
-
-}
-.onethird{
-    width: calc(100%/3);
-}
-.fortypercent{
-    width: 40%
-}
-.thirtypercent{
-    width:30%
-
-}
-.bigtextbox{
-    width: 100%
-}
-/* .textbox{
-    width: 150px
-} */
 </style>
 
 
 <body>
     <header> 
-        <img class="logo" src="logo200.png" >
+        <img class="logo" src="./img/logo200.png" >
         <nav>
-        <a class= "navbar" href="#">Home</a>
-        <a class= "navbar" href="#">Services</a>
-        <a class= "navbar" href="#">Contact Us</a>
+                <a class= "navbar" href="home.html">Home</a>
+                <a class= "navbar" href="Services.html"> Services</a>
+                <a class= "navbar" href="Contactus.html">Contact Us</a>
          </nav>
     </header>
-    <main>
+    <Div>
         <h2>Contact Us</h2>
         <p class="blocktext">If you are currently experiencing a challenge or want to discuss how Mike may be a 
             fit for your coaching needs you can reach us by phone, email, 
@@ -122,15 +39,18 @@ p{
             Phone Number:<br>
             <input class="bigtextbox" type="tel"><br>
             How Can I Help:<br>
-            <textarea class="bigtextbox" id=Contactus rows="15"></textarea><br>
+            <textarea class="bigtextbox" id=Contactus rows="25"></textarea><br>
             Preferred Contact Method:
             <input type="radio" name="Contact Method" value="Email"> Email
             <input type="radio" name="Contact Method" value="Phone"> Phone<br>
             <input type="submit" value="Submit">
         </form>
         
-    </main>
-   <footer></footer>
+    </Div>
+   <footer>
+       <a href="mailto:kaz@kazleads.com"><img class="logo" src="./img/contact.png"></a>
+       <h2 class ="left footertxt">Email Us Anytime!</h2>
+   </footer>
     
     
             
