@@ -11,7 +11,7 @@ nav{
 
 }
 aside{
-    width: 25%
+    max-width: 25%
 
 }
 main{
@@ -50,6 +50,8 @@ h1 {
 h2 {
     color:rgb(179,71,59);
        font-family: 'Varela', sans-serif;
+       text-align: center;
+       text-decoration: underline
 }
 .logo{
     float: left;
@@ -113,3 +115,22 @@ p{
 .left{text-align: left}
 .right{text-align: right}
 .footertxt{padding: 30px}
+.flleft{float: left;}
+.srvls{
+    color:rgb(179,71,59);
+    text-decoration: underline
+
+}
+.flser{
+    Flex-basis:400px;
+    margin: 10px;
+    
+}
+.srvicon{
+    max-width: 100px;
+    max-height: 100px
+}
+.folbar{
+    position: fixed;
+    width: 25%
+}
